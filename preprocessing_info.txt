@@ -1,0 +1,5 @@
+max_length: 100
+scaler_type: MinMaxScaler
+feature_range: (-1, 1)
+normalization: per_sample
+features: ['x', 'y', 'vx', 'vy']
