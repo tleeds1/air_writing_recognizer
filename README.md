@@ -5,7 +5,7 @@ A real-time handwriting recognition tool that uses mouse movements to recognize 
 Tho Doan Le - tleeds1['https://github.com/tleeds1']
 
 ## Overview
-This application allows users to "write in the air" using a mouse and predicts what was written using a pre-trained deep learning model. The system captures mouse trajectory data, preprocesses it, and passes it to a neural network for classification.
+In this project, I use VNI_air_writing['https://www.kaggle.com/datasets/trnhhunhthnhkhang/vi-air-writing'] dataset from Kaggles and train a specific model for that dataset. After that, I build an application that allows users to "write in the air" using a mouse and predicts what was written using a pre-trained deep learning model. The system captures mouse trajectory data, preprocesses it, and passes it to a neural network for classification.
 
 ![Test Example](test.png)
 
@@ -28,7 +28,6 @@ This application allows users to "write in the air" using a mouse and predicts w
 ```bash
 # Clone the repository
 git clone https://github.com/tleeds1/air_writing_recognizer.git
-cd air-writing-recognition
 
 # Install dependencies
 pip install -r requirements.txt
@@ -36,7 +35,7 @@ pip install -r requirements.txt
 
 ## Usage
 1. Ensure you have the trained model files:
-   - `air_writing_model.h5` (the neural network model)
+   - `air_writing_model.h5`
    - `model_metadata.joblib` (containing label mappings and preprocessing parameters)
 2. Run the application: 
 ```bash
