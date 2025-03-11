@@ -2,10 +2,10 @@
 A real-time handwriting recognition tool that uses mouse movements to recognize written characters and words.
 
 # Authors
-Tho Doan Le - [tleeds1]('https://github.com/tleeds1')
+Tho Doan Le - [tleeds1](https://github.com/tleeds1)
 
 ## Overview
-In this project, I use [VNI_air_writing]('https://www.kaggle.com/datasets/trnhhunhthnhkhang/vi-air-writing') dataset from Kaggles and train a specific model for that dataset. After that, I build an application that allows users to "write in the air" using a mouse and predicts what was written using a pre-trained deep learning model. The system captures mouse trajectory data, preprocesses it, and passes it to a neural network for classification.
+In this project, I use [VNI_air_writing](https://www.kaggle.com/datasets/trnhhunhthnhkhang/vi-air-writing) dataset from Kaggles and train a specific model for that dataset. After that, I build an application that allows users to "write in the air" using a mouse and predicts what was written using a pre-trained deep learning model. The system captures mouse trajectory data, preprocesses it, and passes it to a neural network for classification.
 
 ![Test Example](test.png)
 
